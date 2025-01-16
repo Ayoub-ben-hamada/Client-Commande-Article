@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="481.0" style="-fx-background-color: #F0F0F0;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Label layoutX="33.0" layoutY="34.0" prefHeight="50.0" prefWidth="112.0" text="Code Article:">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <TextField fx:id="codeArticleField" layoutX="173.0" layoutY="34.0" prefHeight="50.0" prefWidth="135.0" promptText="Code article" />
+      <Button layoutX="177.0" layoutY="370.0" mnemonicParsing="false" onAction="#handleSubmit" prefHeight="50.0" prefWidth="96.0" text="Soumettre" />
+      <Label layoutX="33.0" layoutY="206.0" prefHeight="50.0" prefWidth="112.0" text="Quantité:">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font></Label>
+      <TextField fx:id="qteField" layoutX="177.0" layoutY="206.0" prefHeight="50.0" prefWidth="135.0" promptText="la quantite" />
+      <TextField fx:id="prixHTField" layoutX="177.0" layoutY="285.0" prefHeight="50.0" prefWidth="135.0" promptText="le prix" />
+      <Label layoutX="33.0" layoutY="285.0" prefHeight="50.0" prefWidth="112.0" text="Prix HT:" textAlignment="CENTER">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font></Label>
+      <Label layoutX="33.0" layoutY="124.0" prefHeight="50.0" prefWidth="112.0" text="libelle :">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font></Label>
+      <TextField fx:id="libelleField" layoutX="174.0" layoutY="124.0" prefHeight="50.0" prefWidth="135.0" promptText="libelle" />
+   </children>
+</AnchorPane>
